@@ -18,18 +18,18 @@ This project utilizes Machine Learning techniques to improve the accuracy of pre
 - [Appendix](#appendix)
 
 
-🎯  Project Motivation
+## 🎯 Project Motivation
 
 Type 2 Diabetes runs in my family, so I’ve seen firsthand the long-term health challenges and financial strain it can cause. This project is driven by a personal and societal need to identify high-risk individuals earlier using Machine Learning — helping to prevent complications, reduce healthcare costs, and improve overall quality of life.
 
 
-### Problem Statement:
+## 📝 Problem Statement
 
 This project will attempt to find a solution to the following:
 
 "How can we use Machine Learning to enhance the early detection and prognosis of Type 2 Diabetes in at-risk individuals?"
 
-🌟 Opportunities
+## 🌟 Opportunities
 
 - Early Risk Identification- By accurately identifying individuals at risk of developing Type 2 Diabetes, we can enable timely lifestyle and medical interventions that may prevent or delay disease onset.
 
@@ -41,7 +41,7 @@ This project will attempt to find a solution to the following:
 
 - Integration into Clinical Tools: With robust validation, the model could be integrated into electronic health record systems to assist healthcare providers in making data-driven risk assessments during routine checkups. 
 
-🌍 Impact
+## 📊 Impact
 
 - Improved Patient Outcomes: Early identification of high-risk individuals enables timely intervention, reducing the likelihood of serious complications such as vision loss, heart disease, stroke, kidney failure, and limb amputation.
 
@@ -54,7 +54,7 @@ This project will attempt to find a solution to the following:
 - Scalable Public Health Benefits: Once validated, this model can be adapted across diverse populations and healthcare systems to aid in widespread diabetes prevention and policy planning.
 
 
-👨‍👩‍👧‍👦 Key Beneficiaries
+## 👥 Key Beneficiaries
 
 - Individuals who lead an unhealthy lifestyle. They could benefit from using these datasets and see what are the main factors which causes diabetes and what are the steps to take to avoid it 
 
@@ -63,7 +63,7 @@ This project will attempt to find a solution to the following:
 - Government- Insights from this data would help the government better spend their budget on healthcare and provide suitable resources.
 
 
-🧠 Machine Learning Models
+## 🤖 ML Models
 
 Machine Learning can offer scalable, data driven predictions on which individuals are most likely to be at risk for diabetes. Machine learning will help us identify which features are critical and whether there is a correlation and causation. 
 
@@ -74,7 +74,7 @@ I will be attempting to use below Predictive Models :
 - Random Forest
 - XGBoost
 
-📈 The Data
+## 📂 The Data
 
 This data was collected by using Behavioural Risk Factor Surveillance System (BRFSS) which is a health-related telephone survey collected by Centre for Disease Control and Prevention (CDC). 
 
@@ -110,7 +110,7 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 
 
 
-🚀 RoadMap- What has been done so far
+## 🗺 Road Map
 
 - Data Collection & Cleaning:
 
@@ -123,7 +123,7 @@ Performed univariate and bivariate analysis, Chi-Square and t-tests confirmed si
 
 One-hot encoding for categorical variables and ordinal encoding for ranked categorical variables
 
-📌 Next Steps
+## ⏭ Next Steps
 
 Modeling:
 
@@ -140,7 +140,7 @@ Technology App:
 
 - Use Streamlit App and develop an app which takes few inputs and shows if someone is diabetic or not
 
-📎Appendix
+## 📎 Appendix
 
 * `data` 
 
