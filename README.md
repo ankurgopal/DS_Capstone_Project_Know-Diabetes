@@ -123,6 +123,10 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
   - [Decision Tree](#decision-tree)
 
 ![Physical Health](https://github.com/ankurgopal/DS_Capstone_Project_Know-Diabetes/blob/main/physical%20health.png?raw=true)
+<p align="center">
+  <img src="https://github.com/ankurgopal/DS_Capstone_Project_Know-Diabetes/blob/main/physical%20health.png?raw=true" alt="Physical Health" width="600">
+</p>
+
 
 
 <h2 id="project-progression">📌 Project Progression</h2>
