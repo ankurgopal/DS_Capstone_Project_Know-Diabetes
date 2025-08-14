@@ -14,6 +14,7 @@ This project utilizes Machine Learning techniques to improve the accuracy of pre
 - [ML Models](#ml-models)
 - [The Data](#the-data)
 - [Project Organization](#project-organization)
+- [Project Progression](#project-progression)
 - [Next Steps](#next-steps)
 - [Appendix](#appendix)
 ---
@@ -121,7 +122,8 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 - [Advanced Modelling](#advanced-modelling)
   - [Decision Tree](#decision-tree)
 
-- Project Progression:
+
+<h2 id="project-progression">📌 Project Progression</h2>
 
 The data has been loaded, cleaned and formatted for usage. Initial EDA showed the distribution of data. Feature engineering such as one hot encoding and ordinal encoding were done. Hypothesis testing was done to check for feature importance. Enhanced EDA was performed to study any underlying relations between different features. Lastly, logistic regression was adopted as the baseline model for my project. Next steps for advanced modelling were identified and a little progess was done on Decision Tree.
 
