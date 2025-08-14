@@ -5,19 +5,18 @@ Early Diabetes Detection -A Data Driven Approach for Early Intervention & Preven
 
 This project utilizes Machine Learning techniques to improve the accuracy of predicting the risk and progression of Type 2 Diabetes by analyzing demographic, lifestyle, and clinical health indicators. By identifying high-risk individuals early and supporting more precise prognosis, this project aims to enable timely interventions and improve long-term health outcomes and quality of life for patients.
 
-## 📚 Table of Contents
-- [Project Motivation](#project-motivation)
-- [Problem Statement](#problem-statement)
-- [Opportunities](#opportunities)
-- [Impact](#impact)
-- [Key Beneficiaries](#key-beneficiaries)
-- [ML Models](#ml-models)
-- [The Data](#the-data)
-- [Road Map](#road-map)
-- [Next Steps](#next-steps)
-- [Appendix](#appendix)
+# Table of Contents
+- [Topic Introduction](#topic-introduction)
+- [Data Preparation and Cleaning](#data-preparation-and-cleaning)
+  - [Data Loading and Understanding](#data-loading-and-understanding)
+  - [Formatting & Validity](#formatting--validity)
+- [Visualization and Analysis](#visualization-and-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Advanced EDA](#advanced-eda)
+- [Baseline Models](#summary-of-baseline-models-class-1--diabetic)
+- [Advanced Modelling](#advanced-modelling)
+  - [Decision Tree](#decision-tree)
 
----
 
 
 
