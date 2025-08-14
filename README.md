@@ -4,20 +4,49 @@ Early Diabetes Detection -A Data Driven Approach for Early Intervention & Preven
 📝 Project Overview:
 
 This project utilizes Machine Learning techniques to improve the accuracy of predicting the risk and progression of Type 2 Diabetes by analyzing demographic, lifestyle, and clinical health indicators. By identifying high-risk individuals early and supporting more precise prognosis, this project aims to enable timely interventions and improve long-term health outcomes and quality of life for patients.
-
-# Table of Contents
+## :books: Table of Contents
 - [Topic Introduction](#topic-introduction)
 - [Data Preparation and Cleaning](#data-preparation-and-cleaning)
   - [Data Loading and Understanding](#data-loading-and-understanding)
-  - [Formatting & Validity](#formatting--validity)
+  - [Formatting & Validity](#formatting-validity)
 - [Visualization and Analysis](#visualization-and-analysis)
 - [Feature Engineering](#feature-engineering)
 - [Advanced EDA](#advanced-eda)
-- [Baseline Models](#summary-of-baseline-models-class-1--diabetic)
+- [Baseline Models](#baseline-models)
 - [Advanced Modelling](#advanced-modelling)
   - [Decision Tree](#decision-tree)
 
+---
 
+<h2 id="topic-introduction">📌 Topic Introduction</h2>
+Your content…
+
+<h2 id="data-preparation-and-cleaning">🧹 Data Preparation and Cleaning</h2>
+Your content…
+
+<h3 id="data-loading-and-understanding">📂 Data Loading and Understanding</h3>
+Your content…
+
+<h3 id="formatting-validity">✅ Formatting & Validity</h3>
+Your content…
+
+<h2 id="visualization-and-analysis">📊 Visualization and Analysis</h2>
+Your content…
+
+<h2 id="feature-engineering">🛠 Feature Engineering</h2>
+Your content…
+
+<h2 id="advanced-eda">🔍 Advanced EDA</h2>
+Your content…
+
+<h2 id="baseline-models">📈 Baseline Models</h2>
+Your content…
+
+<h2 id="advanced-modelling">🤖 Advanced Modelling</h2>
+Your content…
+
+<h3 id="decision-tree">🌳 Decision Tree</h3>
+Your content…
 
 
 <h2 id="project-motivation">🎯 Project Motivation</h2>
