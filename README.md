@@ -121,16 +121,9 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 - [Advanced Modelling](#advanced-modelling)
   - [Decision Tree](#decision-tree)
 
-- Data Collection & Cleaning:
+- Project Progression:
 
-BRFSS 2015 health dataset — cleaned nulls, handled outliers, encoded categorical features
-
-- EDA & Statistical Testing:
-Performed univariate and bivariate analysis, Chi-Square and t-tests confirmed significance of features like BMI, physical/mental health
-
-- Feature Engineering:
-
-One-hot encoding for categorical variables and ordinal encoding for ranked categorical variables
+The data has been loaded, cleaned and formatted for usage. Initial EDA showed the distribution of data. Feature engineering such as one hot encoding and ordinal encoding were done. Hypothesis testing was done to check for feature importance. Enhanced EDA was performed to study any underlying relations between different features. Lastly, logistic regression was adopted as the baseline model for my project. Next steps for advanced modelling were identified and a little progess was done on Decision Tree.
 
 <h2 id="next-steps">⏭ Next Steps</h2>
 
@@ -142,6 +135,7 @@ Advanced Modeling:
 - XGBoost
 - Evaluate these models
 - Explore Pipeline combinations
+
 
 Dashboard:
 - Use Tableau to create an interactive story
