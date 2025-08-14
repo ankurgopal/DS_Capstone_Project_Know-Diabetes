@@ -1,60 +1,27 @@
-Early Diabetes Detection -A Data Driven Approach for Early Intervention & Prevention
+🩺 Early Diabetes Detection -A Data Driven Approach for Early Intervention & Prevention 🩺
 ========================================================================================
 
-📝 Project Overview:
+##📝 Project Overview:
 
 This project utilizes Machine Learning techniques to improve the accuracy of predicting the risk and progression of Type 2 Diabetes by analyzing demographic, lifestyle, and clinical health indicators. By identifying high-risk individuals early and supporting more precise prognosis, this project aims to enable timely interventions and improve long-term health outcomes and quality of life for patients.
-## :books: Table of Contents
-- [Topic Introduction](#topic-introduction)
-- [Data Preparation and Cleaning](#data-preparation-and-cleaning)
-  - [Data Loading and Understanding](#data-loading-and-understanding)
-  - [Formatting & Validity](#formatting-validity)
-- [Visualization and Analysis](#visualization-and-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Advanced EDA](#advanced-eda)
-- [Baseline Models](#baseline-models)
-- [Advanced Modelling](#advanced-modelling)
-  - [Decision Tree](#decision-tree)
 
+## 📚 Table of Contents
+- [Project Motivation](#project-motivation)
+- [Problem Statement](#problem-statement)
+- [Opportunities](#opportunities)
+- [Impact](#impact)
+- [Key Beneficiaries](#key-beneficiaries)
+- [ML Models](#ml-models)
+- [The Data](#the-data)
+- [Project Organization](#project-organization)
+- [Next Steps](#next-steps)
+- [Appendix](#appendix)
 ---
-
-<h2 id="topic-introduction">📌 Topic Introduction</h2>
-Your content…
-
-<h2 id="data-preparation-and-cleaning">🧹 Data Preparation and Cleaning</h2>
-Your content…
-
-<h3 id="data-loading-and-understanding">📂 Data Loading and Understanding</h3>
-Your content…
-
-<h3 id="formatting-validity">✅ Formatting & Validity</h3>
-Your content…
-
-<h2 id="visualization-and-analysis">📊 Visualization and Analysis</h2>
-Your content…
-
-<h2 id="feature-engineering">🛠 Feature Engineering</h2>
-Your content…
-
-<h2 id="advanced-eda">🔍 Advanced EDA</h2>
-Your content…
-
-<h2 id="baseline-models">📈 Baseline Models</h2>
-Your content…
-
-<h2 id="advanced-modelling">🤖 Advanced Modelling</h2>
-Your content…
-
-<h3 id="decision-tree">🌳 Decision Tree</h3>
-Your content…
-
-
-<h2 id="project-motivation">🎯 Project Motivation</h2>
+<h2 id="project-motivation">🎯 Project Motivation</h2
 
 Type 2 Diabetes runs in my family, so I’ve seen firsthand the long-term health challenges and financial strain it can cause. This project is driven by a personal and societal need to identify high-risk individuals earlier using Machine Learning — helping to prevent complications, reduce healthcare costs, and improve overall quality of life.
 
-
-<h2 id="problem-statement">🧾 Problem Statement</h2>
+<h2 id="problem-statement">📝 Problem Statement</h2>
 
 This project will attempt to find a solution to the following:
 
@@ -105,7 +72,6 @@ I will be attempting to use below Predictive Models :
 - Random Forest
 - XGBoost
 
-
 <h2 id="the-data">📂 The Data</h2>
 
 This data was collected by using Behavioural Risk Factor Surveillance System (BRFSS) which is a health-related telephone survey collected by Centre for Disease Control and Prevention (CDC). 
@@ -142,7 +108,18 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 
 
 
-<h2 id="road-map">🗺️ Road Map</h2>
+<h2 id="project-organization">📌 Project Organization</h2>
+
+- [Topic Introduction](#topic-introduction)
+- [Data Preparation and Cleaning](#data-preparation-and-cleaning)
+  - [Data Loading and Understanding](#data-loading-and-understanding)
+  - [Formatting & Validity](#formatting-validity)
+- [Visualization and Analysis](#visualization-and-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Advanced EDA](#advanced-eda)
+- [Baseline Models](#baseline-models)
+- [Advanced Modelling](#advanced-modelling)
+  - [Decision Tree](#decision-tree)
 
 - Data Collection & Cleaning:
 
@@ -155,15 +132,16 @@ Performed univariate and bivariate analysis, Chi-Square and t-tests confirmed si
 
 One-hot encoding for categorical variables and ordinal encoding for ranked categorical variables
 
-<h2 id="next-steps">⏭️ Next Steps</h2>
+<h2 id="next-steps">⏭ Next Steps</h2>
 
-Modeling:
+Advanced Modeling:
 
-- Address class imbalance issue.
-- Normalize the dataset
-- Use Stratified train-split 
-- Explore logistic regression as a baseline model
-- Evaluate the model using accuracy, F1-score, cross-validation, confusion matrix, and AUC-ROC
+- Logistic Regression with optimization
+- Decision Tree & optimization .
+- Random Forest with optimization
+- XGBoost
+- Evaluate these models
+- Explore Pipeline combinations
 
 Dashboard:
 - Use Tableau to create an interactive story
