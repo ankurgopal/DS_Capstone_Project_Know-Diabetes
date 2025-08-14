@@ -122,6 +122,8 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 - [Advanced Modelling](#advanced-modelling)
   - [Decision Tree](#decision-tree)
 
+![Physical Health](https://github.com/ankurgopal/DS_Capstone_Project_Know-Diabetes/blob/main/physical%20health.png?raw=true)
+
 
 <h2 id="project-progression">📌 Project Progression</h2>
 
