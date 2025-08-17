@@ -128,8 +128,6 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 </p>
 
 
-
-
 <h2 id="project-progression">📌 Project Progression</h2>
 
 The data has been loaded, cleaned and formatted for usage. Initial EDA showed the distribution of data.
