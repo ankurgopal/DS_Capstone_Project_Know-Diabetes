@@ -119,8 +119,8 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 - [Feature Engineering](#feature-engineering)
 - [Advanced EDA](#advanced-eda)
 - [Baseline Models](#baseline-models)
-- [Advanced Modelling](#advanced-modelling)
-  - [Decision Tree](#decision-tree)
+- [Model Interpretation](#advanced-modelling)
+  - [Logistic Regression-Upsampling Interpretation](#logistic-regression-upsample-interpretation)
 
 <p align="center">
   <img src="https://github.com/ankurgopal/DS_Capstone_Project_Know-Diabetes/blob/main/physical%20health.png?raw=true" alt="Physical Health" width="600">
@@ -130,17 +130,21 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 
 <h2 id="project-progression">📌 Project Progression</h2>
 
-The data has been loaded, cleaned and formatted for usage. Initial EDA showed the distribution of data. Feature engineering such as one hot encoding and ordinal encoding were done. Hypothesis testing was done to check for feature importance. Enhanced EDA was performed to study any underlying relations between different features. Lastly, logistic regression was adopted as the baseline model for my project. Next steps for advanced modelling were identified and a little progess was done on Decision Tree.
+The data has been loaded, cleaned and formatted for usage. Initial EDA showed the distribution of data.
+Feature engineering such as one hot encoding and ordinal encoding were done.
+Hypothesis testing was done to check for feature importance. 
+Enhanced EDA was performed to study any underlying relations between different features. Lastly, logistic regression was adopted as the baseline model for my project. 
+Next steps for advanced modelling were identified and a little progess was done on Decision Tree.
 
 <h2 id="next-steps">⏭ Next Steps</h2>
 
 Advanced Modeling:
 
 - Logistic Regression with optimization
-- Decision Tree & optimization .
+- Decision Tree with optimization .
 - Random Forest with optimization
 - XGBoost
-- Evaluate these models
+- Stacking of models
 - Explore Pipeline combinations
 
 
@@ -166,6 +170,7 @@ Technology App:
 
 * `docs`
     - Sprint 1- Presentation
+    - Sprint 2- Presentation
 
 * `references`
 
