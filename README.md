@@ -121,11 +121,12 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 - [Baseline Models](#baseline-models)
 - [Model Interpretation](#advanced-modelling)
   - [Logistic Regression-Upsampling Interpretation](#logistic-regression-upsample-interpretation)
-
+    
 <p align="center">
   <img src="https://github.com/ankurgopal/DS_Capstone_Project_Know-Diabetes/blob/main/models/physical_health.png?raw=true" 
        alt="Physical Health" width="600">
 </p>
+
 
 
 
