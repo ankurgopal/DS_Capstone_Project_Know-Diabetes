@@ -1,34 +1,35 @@
-🩺 Early Diabetes Detection -A Data Driven Approach for Early Intervention & Prevention 🩺
+Early Diabetes Detection -A Data Driven Approach for Early Intervention & Prevention
 ========================================================================================
 
 📝 Project Overview:
 
 This project utilizes Machine Learning techniques to improve the accuracy of predicting the risk and progression of Type 2 Diabetes by analyzing demographic, lifestyle, and clinical health indicators. By identifying high-risk individuals early and supporting more precise prognosis, this project aims to enable timely interventions and improve long-term health outcomes and quality of life for patients.
 
-## 📚 Table of Contents
-- [Project Motivation](#project-motivation)
-- [Problem Statement](#problem-statement)
-- [Opportunities](#opportunities)
-- [Impact](#impact)
-- [Key Beneficiaries](#key-beneficiaries)
-- [ML Models](#ml-models)
-- [The Data](#the-data)
-- [Project Organization](#project-organization)
-- [Project Progression](#project-progression)
-- [Next Steps](#next-steps)
-- [Appendix](#appendix)
----
-<h2 id="project-motivation">🎯 Project Motivation</h2
+📖 Table of Contents
+
+- Project Motivation
+- Problem Statement
+- Opportunities
+- Impact
+- Key Beneficiaries
+- ML Models
+- The Data
+- Road Map
+- Future Development
+- Appendix
+
+🎯  Project Motivation
 
 Type 2 Diabetes runs in my family, so I’ve seen firsthand the long-term health challenges and financial strain it can cause. This project is driven by a personal and societal need to identify high-risk individuals earlier using Machine Learning — helping to prevent complications, reduce healthcare costs, and improve overall quality of life.
 
-<h2 id="problem-statement">📝 Problem Statement</h2>
+
+### Problem Statement:
 
 This project will attempt to find a solution to the following:
 
 "How can we use Machine Learning to enhance the early detection and prognosis of Type 2 Diabetes in at-risk individuals?"
 
-<h2 id="opportunities">🌟 Opportunities</h2>
+🌟 Opportunities
 
 - Early Risk Identification- By accurately identifying individuals at risk of developing Type 2 Diabetes, we can enable timely lifestyle and medical interventions that may prevent or delay disease onset.
 
@@ -40,8 +41,7 @@ This project will attempt to find a solution to the following:
 
 - Integration into Clinical Tools: With robust validation, the model could be integrated into electronic health record systems to assist healthcare providers in making data-driven risk assessments during routine checkups. 
 
-
-<h2 id="impact">📊 Impact</h2>
+🌍 Impact
 
 - Improved Patient Outcomes: Early identification of high-risk individuals enables timely intervention, reducing the likelihood of serious complications such as vision loss, heart disease, stroke, kidney failure, and limb amputation.
 
@@ -53,7 +53,8 @@ This project will attempt to find a solution to the following:
 
 - Scalable Public Health Benefits: Once validated, this model can be adapted across diverse populations and healthcare systems to aid in widespread diabetes prevention and policy planning.
 
-<h2 id="key-beneficiaries">👥 Key Beneficiaries</h2>
+
+👨‍👩‍👧‍👦 Key Beneficiaries
 
 - Individuals who lead an unhealthy lifestyle. They could benefit from using these datasets and see what are the main factors which causes diabetes and what are the steps to take to avoid it 
 
@@ -62,7 +63,7 @@ This project will attempt to find a solution to the following:
 - Government- Insights from this data would help the government better spend their budget on healthcare and provide suitable resources.
 
 
-<h2 id="ml-models">🤖 ML Models</h2>
+🧠 Machine Learning Models
 
 Machine Learning can offer scalable, data driven predictions on which individuals are most likely to be at risk for diabetes. Machine learning will help us identify which features are critical and whether there is a correlation and causation. 
 
@@ -71,9 +72,10 @@ I will be attempting to use below Predictive Models :
 - Logistic Regression
 - Decision Tree
 - Random Forest
+- KNN
 - XGBoost
 
-<h2 id="the-data">📂 The Data</h2>
+📈 The Data
 
 This data was collected by using Behavioural Risk Factor Surveillance System (BRFSS) which is a health-related telephone survey collected by Centre for Disease Control and Prevention (CDC). 
 
@@ -109,53 +111,47 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 
 
 
-<h2 id="project-organization">📌 Project Organization</h2>
+🚀 RoadMap- What has been done in this project
 
-- [Topic Introduction](#topic-introduction)
-- [Data Preparation and Cleaning](#data-preparation-and-cleaning)
-  - [Data Loading and Understanding](#data-loading-and-understanding)
-  - [Formatting & Validity](#formatting-validity)
-- [Visualization and Analysis](#visualization-and-analysis)
-- [Feature Engineering](#feature-engineering)
-- [Advanced EDA](#advanced-eda)
-- [Baseline Models](#baseline-models)
-- [Model Interpretation](#advanced-modelling)
-  - [Logistic Regression-Upsampling Interpretation](#logistic-regression-upsample-interpretation)
-    
-<p align="center">
-  <img src="https://github.com/ankurgopal/DS_Capstone_Project_Know-Diabetes/blob/main/models/physical health.png?raw=true" 
-       alt="Physical Health" width="600">
-</p>
+- Data Collection & Cleaning:
 
+BRFSS 2015 health dataset — cleaned nulls, handled outliers, encoded categorical features
 
-<h2 id="project-progression">📌 Project Progression</h2>
+- EDA & Statistical Testing:
+Performed univariate and bivariate analysis, Chi-Square and t-tests confirmed significance of features like BMI, physical/mental health
 
-The data has been loaded, cleaned and formatted for usage. Initial EDA showed the distribution of data.
-Feature engineering such as one hot encoding and ordinal encoding were done.
-Hypothesis testing was done to check for feature importance. 
-Enhanced EDA was performed to study any underlying relations between different features. Lastly, logistic regression was adopted as the baseline model for my project. 
-Next steps for advanced modelling were identified and a little progess was done on Decision Tree.
+- Feature Engineering:
 
-<h2 id="next-steps">⏭ Next Steps</h2>
+One-hot encoding for categorical variables and ordinal encoding for ranked categorical variables
 
-Advanced Modeling:
+- Advanced EDA:
 
-- Logistic Regression with optimization
-- Decision Tree with optimization .
-- Random Forest with optimization
-- XGBoost
-- Stacking of models
-- Explore Pipeline combinations
+Some more feature engineering was done and advanced insights were drawn
 
+- Baseline Models:
 
-Dashboard:
-- Use Tableau to create an interactive story
+Logistic Regression, Decision Tree, Random Forest, KNN & XGBoost baseline models were developed. Class imbalances were appropriately handled.
+
+- Advanced Models:
+
+- 2 top models (Logistic Regression & XGBoost) were hypertuned, compared and evaluated based on metrics like Classification report (F1 score, precision & recall), confusion matrix, ROC-AUC Curve & PR-Curve
+
+📌 
+
+Methodology for Modeling:
+
+- Addressed class imbalance issue.
+- Normalized the dataset
+- Use Stratified train-split 
+- Explored LR, DT, RF, KNN & XGBoost with upsampling technique as well as class weighted approach
+- Evaluated the model using accuracy, F1-score, cross-validation, confusion matrix, and AUC-ROC
+
 
 Technology App:
 
-- Use Streamlit App and develop an app which takes few inputs and shows if someone is diabetic or not
+- Use Streamlit App was developed for best performing model. This app takes input features from users and then predicts if someone is diabetic or not based.
 
-<h2 id="appendix">📎 Appendix</h2>
+📎Appendix
 
 * `data` 
 
@@ -171,6 +167,8 @@ Technology App:
 * `docs`
     - Sprint 1- Presentation
     - Sprint 2- Presentation
+    - Sprint 3- Presentation
+	
 
 * `references`
 
@@ -185,7 +183,7 @@ Technology App:
 * `README.md`
     - Project landing page (Diabetes_README)
 
-* `LICENSE`
+* `LICENSE` 
     - Project license
 
 
