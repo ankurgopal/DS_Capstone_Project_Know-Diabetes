@@ -136,15 +136,17 @@ Logistic Regression, Decision Tree, Random Forest, KNN & XGBoost baseline models
 
 - 2 top models (Logistic Regression & XGBoost) were hypertuned, compared and evaluated based on metrics like Classification report (F1 score, precision & recall), confusion matrix, ROC-AUC Curve & PR-Curve
 
-📌 
+- Results:
+- XGBoost won with respect recall (0.79 for Diabetics class) but logistic Regression with recall (0.77 for Diabetics class) offers simplicity and better interpretability.
 
-Methodology for Modeling:
+📌 Methodology for Modeling:
 
 - Addressed class imbalance issue.
 - Normalized the dataset
 - Use Stratified train-split 
 - Explored LR, DT, RF, KNN & XGBoost with upsampling technique as well as class weighted approach
 - Evaluated the model using accuracy, F1-score, cross-validation, confusion matrix, and AUC-ROC
+- Hypertune the best 2 models and compare
 
 
 Technology App:
