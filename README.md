@@ -113,7 +113,11 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 
 🚀 RoadMap- What has been done in this project
 
-<img src="Images/physical health.png" width="640" alt="Project Roadmap" />
+<!-- Centered, fixed width (keeps aspect ratio) -->
+<p align="center">
+  <img src="Images/Project_Roadmap.png" alt="Project Roadmap" width="420">
+</p>
+
 
 - Data Collection & Cleaning:
 
@@ -154,7 +158,8 @@ Logistic Regression, Decision Tree, Random Forest, KNN & XGBoost baseline models
 Technology App:
 
 - Streamlit App was developed for best performing model. This app takes input features from users and then predicts if someone is diabetic or not based.
-- xgb_diabetes_model.pkl was the pickel file
+- xgb_diabetes_model.pkl & app.py were the files
+- Dashboard on the Streamlit was also created with 01_Dashboard.py
 
 📎Appendix
 
