@@ -151,7 +151,8 @@ Logistic Regression, Decision Tree, Random Forest, KNN & XGBoost baseline models
 
 Technology App:
 
-- Use Streamlit App was developed for best performing model. This app takes input features from users and then predicts if someone is diabetic or not based.
+- Streamlit App was developed for best performing model. This app takes input features from users and then predicts if someone is diabetic or not based.
+- xgb_diabetes_model.pkl was the pickel file
 
 📎Appendix
 
@@ -164,7 +165,9 @@ Technology App:
  - Data kept below 10MB for reproducibility
 
 * `notebooks`
-    - EDA-Diabetes CDC
+    - Sprint 1- EDA-Diabetes CDC
+    - CDC-Sprint 2
+    - CDC Modelling
 
 * `docs`
     - Sprint 1- Presentation
@@ -180,7 +183,7 @@ Technology App:
 
 
 * `conda.yml`
-    - Conda environment specification
+    - ml_env
 
 * `README.md`
     - Project landing page (Diabetes_README)
