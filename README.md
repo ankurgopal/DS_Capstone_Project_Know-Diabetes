@@ -113,7 +113,7 @@ https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators
 
 🚀 RoadMap- What has been done in this project
 
-<img src="Images/Diabetes_Roadmap.png" width="640" alt="Project Roadmap" />
+<img src="Images/physical health.png" width="640" alt="Project Roadmap" />
 
 - Data Collection & Cleaning:
 
